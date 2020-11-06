@@ -1,9 +1,9 @@
-tmb <- function(PI,TALLA,EDAD, a.fisica=c("poco/nada","ligero","moderado",
+gmb <- function(PI,TALLA,EDAD, a.fisica=c("poco/nada","ligero","moderado",
                                           "fuerte","profesional/extremo")) {
   #argumentos: 
   #- PI:PESO IDEAl
-  #- TALLA: ESTATURA EN CM 
-  #- EDAD: EDAD EN AÑOS
+  #- TALLA: ESTATURA EN CM
+  #- EDAD: EDAD EN AÃ‘OS
   #- a.fisica: ACTIVIDAD FISICA REALIZADA que puede ser uno solo de
   #los siguientes:
   
@@ -36,10 +36,10 @@ tmb <- function(PI,TALLA,EDAD, a.fisica=c("poco/nada","ligero","moderado",
   r
 }
 
-tmb(68,170,22,"profesional/extremo")
-tmb(68,170,22,"ligero")
-tmb(68,170,22,"moderado")
-tmb(68,170,22,"fuerte")
-tmb(68,170,22,"poco/nada")
-tmb(68,170,22)
-tmb()
+gmb(68,170,22,"profesional/extremo")
+gmb(68,170,22,"ligero")
+gmb(68,170,22,"moderado")
+gmb(68,170,22,"fuerte")
+gmb(68,170,22,"poco/nada")
+gmb(68,170,22)
+gmb()
