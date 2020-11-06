@@ -1,7 +1,7 @@
 gmb <- function(PI,TALLA,EDAD, a.fisica=c("poco/nada","ligero","moderado",
                                           "fuerte","profesional/extremo")) {
   #argumentos: 
-  #- PI:PESO IDEAl
+  #- PI:PESO IDEAl EN KG
   #- TALLA: ESTATURA EN CM
   #- EDAD: EDAD EN AÑOS
   #- a.fisica: ACTIVIDAD FISICA REALIZADA que puede ser uno solo de
