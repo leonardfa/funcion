@@ -35,11 +35,3 @@ gmb <- function(PI,TALLA,EDAD, a.fisica=c("poco/nada","ligero","moderado",
   )
   r
 }
-
-gmb(68,170,22,"profesional/extremo")
-gmb(68,170,22,"ligero")
-gmb(68,170,22,"moderado")
-gmb(68,170,22,"fuerte")
-gmb(68,170,22,"poco/nada")
-gmb(68,170,22)
-gmb()
